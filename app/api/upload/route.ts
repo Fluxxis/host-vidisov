@@ -5,7 +5,7 @@ import { DB } from '@/lib/db'
 // ═══════════════════════════════════════════════════════════════
 // ЗАМЕНИ ЭТУ СТРОКУ НА СВОЙ BLOB_READ_WRITE_TOKEN
 // ═══════════════════════════════════════════════════════════════
-const BLOB_TOKEN = 'vercel_blob_rw_20ndb2apqaqgqag0_ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ'
+const BLOB_TOKEN = 'vercel_blob_rw_20ndb2ApQAqGqAG0_QjrgmbXLeKPCVpqyh8MXWcA7At79Vf'
 
 export async function POST(request: Request) {
   try {
