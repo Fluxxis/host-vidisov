@@ -184,13 +184,7 @@ function WatchInner() {
                 <a href={video.url} download={name} className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-purple-600 to-blue-600 rounded-xl hover:from-purple-500 hover:to-blue-500 transition-all text-sm"><Download className="w-4 h-4" /> Download</a>
               </div>
             </div>
-            <div className="mt-6 pt-6 border-t border-white/5">
-              <label className="text-xs text-white/40 mb-2 block">Video URL</label>
-              <div className="flex gap-2">
-                <div className="flex-1 px-4 py-3 bg-white/5 rounded-xl text-sm text-white/50 font-mono truncate border border-white/10">{video.url}</div>
-                <button onClick={() => copy(video.url)} className="px-4 py-3 glass rounded-xl hover:bg-white/10 transition-colors"><Copy className="w-4 h-4" /></button>
-              </div>
-            </div>
+
           </motion.div>
         </motion.div>
       </div>
